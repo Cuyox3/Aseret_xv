@@ -1,0 +1,68 @@
+.inicio {
+    background-image: url('/src/fondo1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    text-align: center; 
+
+}
+
+.bienvenida {
+    background-color: #0084ff;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    font: white;
+}
+
+.top{
+    margin-top: 75px;
+}
+
+.medium{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bottom{
+    margin-bottom: 125px;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-size: auto;
+  }
+
+  .Playfair_Display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-size: auto;
+  }
+
+  @media (max-width: 250px)  {
+    /* estilos para dispositivos móviles y cuando se imprime */
+    .Playfair_Display {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+        font-size: 150px;
+      }
+  }
+
+  @media (max-width: 300px)  {
+    /* estilos para dispositivos móviles y cuando se imprime */
+    .Playfair_Display {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+        font-size: 500px;
+      }
+  }
